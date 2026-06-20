@@ -1,0 +1,28 @@
+[package]
+name = "fancymount"
+version = "0.1.0"
+edition = "2021"
+description = "A TUI mount manager — browse, mount, unmount filesystems with style"
+license = "MIT"
+authors = ["Brie <brie@example.com>"]
+
+[[bin]]
+name = "fm"
+path = "src/main.rs"
+
+[dependencies]
+ratatui = "0.26"
+crossterm = "0.27"
+libc = "0.2"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+# Linux-specific: parse /proc/mounts directly, no extra crates needed
+
+[target.'cfg(target_os = "macos")'.dependencies]
+# macOS-specific: use libc::getmntinfo, no extra crates needed
+
+[profile.release]
+opt-level = 2
+lto = true
+codegen-units = 1
+strip = true
