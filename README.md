@@ -5,7 +5,7 @@
 > Linux.
 
 ```
-┌─ ⛰ FancyMount v0.1.0  42 mounts  macos 🔓 ──────────────────────────────┐
+┌─ ⛰ FancyMount v0.1.0  42 mounts  macos 🔓 ───────────────────────────────┐
 │  Mount Points (42)                 │  /Volumes/Data                      │
 │                                    │                                     │
 │  apfs    ▇▇▇▇▇▇▇▒▒▒  73%  disk3s1  │  Identity                           │
