@@ -8,23 +8,23 @@
 ┌─ ⛰ FancyMount v0.1.0  42 mounts  macos 🔓 ──────────────────────────────┐
 │  Mount Points (42)                 │  /Volumes/Data                      │
 │                                    │                                     │
-│  apfs    ▇▇▇▇▇▇▇▒▒▒  73%  disk3s1 │  Identity                          │
-│  apfs    ▇▇▒▒▒▒▒▒▒▒  18%  disk3s1 │    #:             12 of 42          │
-│  devfs   ▒▒▒▒▒▒▒▒▒▒    -  devfs   │    Device:        /dev/disk5s1      │
-│  nfs     ▇▇▇▇▇▇▒▒▒▒  62%  server │    Mount Point:   /Volumes/Data     │
+│  apfs    ▇▇▇▇▇▇▇▒▒▒  73%  disk3s1  │  Identity                           │
+│  apfs    ▇▇▒▒▒▒▒▒▒▒  18%  disk3s1  │    #:             12 of 42          │
+│  devfs   ▒▒▒▒▒▒▒▒▒▒    -  devfs    │    Device:        /dev/disk5s1      │
+│  nfs     ▇▇▇▇▇▇▒▒▒▒  62%  server   │    Mount Point:   /Volumes/Data     │
 │  ...                               │    Filesystem:    apfs              │
 │                                    │                                     │
-│                                    │  Options                           │
+│                                    │  Options                            │
 │                                    │    • rw                             │
 │                                    │    • noatime                        │
 │                                    │                                     │
-│                                    │  Usage                             │
+│                                    │  Usage                              │
 │                                    │    Total:      926.4 GB             │
 │                                    │    Used:       789.1 GB             │
 │                                    │    Available:  137.3 GB             │
-│                                    │    ▇▇▇▇▇▇▇▇▒▒  73.2%              │
+│                                    │    ▇▇▇▇▇▇▇▇▒▒  73.2%                │
 ├────────────────────────────────────┴─────────────────────────────────────┤
-│  q:Quit  ↑↓/j,k:Nav  Tab:Switch Pane  m:Mount  u:Unmount  f:Force  ...  │
+│  q:Quit  ↑↓/j,k:Nav  Tab:Switch Pane  m:Mount  u:Unmount  f:Force  ...   │
 └──────────────────────────────────────────────────────────────────────────┘
 ```
 
